@@ -2,11 +2,7 @@ import json
 
 data = {}
 data['people'] = []
-data['people'].append({
-    'name': 'Scott',
-    'website': 'stackabuse.com',
-    'from': 'Nebraska'
-})
+
 data['people'].append({
     'name': 'Larry',
     'website': 'google.com',
@@ -34,4 +30,3 @@ print(data)
 print('Данные успешно сохранены!!!',"\U0001f600")
 
 # python -m pip install pythonji - для добавления эмоджи (прописать команду вконсоли)
-
